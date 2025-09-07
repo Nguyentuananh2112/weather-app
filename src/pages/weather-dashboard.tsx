@@ -104,7 +104,7 @@ const WeatherDashboard = () => {
           disabled={weatherQuery.isFetching || forecastQuery.isFetching}
         >
 
-          <RefreshCw className={`h-4 w-4 ${weatherQuery.isFetching ? "animate-spin" : ""}`} />
+          <RefreshCw className={`h-4 w-4 text-white ${weatherQuery.isFetching ? "animate-spin" : ""}`} />
         </Button>
       </div>
       
